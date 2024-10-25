@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ChocoRatingPackage
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package contains a Shiny app and a dataset on chocolate ratings from [Flavors of Cocoa](https://flavorsofcacao.com/flavor.html) website. The app allows you to visualize the dataset.
+
+## Installation
+
+You can install the development version of ChocoRatingPackage from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-AnhHoangNamPhan")
+```
+
+## Example
+
+After installing the package, you can load the chocolate dataset and run the Shiny app:
+
+```{r example}
+library(ChocoRatingPackage)
+
+# Load the dataset
+data(chocolate_rating)
+```
+
