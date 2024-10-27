@@ -4,9 +4,9 @@ Welcome to **ChocoRatingPackage**! This R package provides the chocolate rating 
 
 ## Feature
 
-	•	Chocolate Rating Dataset: Access a dataset with chocolate ratings from various manufacturers and countries.
-	•	Interactive Shiny App: Visualize chocolate ratings by company and country, with filters to customize the view.
-	•	Comprehensive Documentation: Easily navigate the package’s functions and data with clear, user-friendly documentation.
+- Chocolate Rating Dataset: Access a dataset with chocolate ratings from various manufacturers and countries.
+- Interactive Shiny App: Visualize chocolate ratings by company and country, with filters to customize the view.
+- Comprehensive Documentation: Easily navigate the package’s functions and data with clear, user-friendly documentation.
 
 ## Installation
 
@@ -38,8 +38,8 @@ summary(chocolate_rating)
 
 The `explore_ratings()` function launches a Shiny app that allows you to filter and visualize chocolate ratings. Within the app, you can:
 
-	•	Filter by Country: Enter a country name to view ratings specific to that region.
-	•	Set Minimum Ratings: Adjust the minimum number of ratings to filter companies with a certain rating count.
+- Filter by Country: Enter a country name to view ratings specific to that region.
+- Set Minimum Ratings: Adjust the minimum number of ratings to filter companies with a certain rating count.
 
 Here’s how you can use the function:
 
@@ -52,9 +52,9 @@ explore_ratings()
 
 Comprehensive documentation for ChocoRatingPackage is available at https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-AnhHoangNamPhan/. This site includes:
 
-	•	Function References: Detailed descriptions and usage examples for each function in the package.
-	•	Vignettes: Step-by-step guides to help you get started and make the most out of the package.
-	•	Package Overview: Background information and additional resources.
+- Function References: Detailed descriptions and usage examples for each function in the package.
+- Vignettes: Step-by-step guides to help you get started and make the most out of the package.
+- Package Overview: Background information and additional resources.
 
 Visit https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-AnhHoangNamPhan/ to learn more and get started with ChocoRatingPackage.
 
