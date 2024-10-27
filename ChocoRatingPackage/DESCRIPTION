@@ -1,13 +1,21 @@
 Package: ChocoRatingPackage
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("Anh", "Phan", "hpha0054@student.monash.edu", role = c("aut", "cre"))
-Description: The package contains Chocolate Rating dataset from "Flavors of Cocoa" website, allows you to explore the chocolate ratings from various manufactureres.
+Title: Tools for Exploring Chocolate Ratings with Shiny App
+Version: 0.1.0
+Authors@R: person(
+  given = "Anh", 
+  family = "Phan",
+  email = "hpha0054@student.monash.edu",
+  role = c("aut", "cre")
+  )
+Description: The package contains Chocolate Rating dataset from "Flavors of Cocoa" website, allows you to explore the chocolate ratings from various companies/manufactureres.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
-Depends: 
+RoxygenNote: 7.3.2
+Depends:
     R (>= 2.10)
 LazyData: true
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
