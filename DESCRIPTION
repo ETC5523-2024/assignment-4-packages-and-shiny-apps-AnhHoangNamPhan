@@ -19,3 +19,9 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Imports: 
+    shiny,
+    ggplot2,
+    dplyr,
+    readr,
+URL: https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-AnhHoangNamPhan/
